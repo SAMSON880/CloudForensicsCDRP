@@ -1,0 +1,13 @@
+1. Import this ZIP into Replit as a new app.
+2. Wait for import to finish.
+3. Click Run.
+4. Open the web preview.
+5. Login with admin / admin123.
+6. Register a USER or SELLER account. Admin must authorize it.
+7. As SELLER, upload a provider record.
+8. As USER, search datasets and run a comparison using the dataset IDs.
+9. A matching pair gives MATCH; different values give DISCREPANCY.
+
+The app starts in DEMO memory mode if MySQL environment variables are absent.
+For persistent MySQL, set MYSQL_URL, MYSQL_USER and MYSQL_PASSWORD and execute
+database/schema.sql in the MySQL service.
